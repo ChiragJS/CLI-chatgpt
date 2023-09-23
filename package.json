@@ -1,0 +1,19 @@
+{
+  "name": "chat-gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "chatgpt": "./bin/index.js"
+  },
+  "dependencies": {
+    "openai": "^4.9.0",
+    "yargs": "^17.7.2"
+  }
+}
